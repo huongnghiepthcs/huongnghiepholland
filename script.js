@@ -574,8 +574,8 @@ let currentStep = "step__1";
 
 const bgImage = {
   step__1: [""],
-  step__2: ["Questions-pana.svg", "Questions-amico.svg"],
-  step__3: ["engineer.svg", "leader.svg"],
+  step__2: ["./Questions-pana.svg", "./Questions-amico.svg"],
+  step__3: ["./engineer.svg", "./leader.svg"],
   step__4: ["", ""],
 };
 
