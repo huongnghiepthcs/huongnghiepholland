@@ -7,7 +7,7 @@
     <title>Trắc nghiệm nghề nghiệp</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 
 <body class="animate__delay-1s">
@@ -19,13 +19,14 @@
         <div class="backgound-layer">
             <img class="theme__bg left__bg animate__animated animate__fadeInUp" src="" alt="">
             <img class="theme__bg right__bg animate__animated animate__fadeInUp" src="" alt="">
-            <img class="center__bg animate__animated animate__fadeInUp" src="Achievement.svg" alt="">
+            <img class="center__bg animate__animated animate__fadeInUp" src="./images/Achievement.svg" alt="">
         </div>
         <div class="animate__animated animate__fadeInDown step step__1 active slogan">
             <div>
 
                 <h1 class=" animate__animated  animate__fadeInDown">Khơi nguồn đam mê, chắp cánh tương lai!</h1>
-                <p class=" animate__animated  animate__fadeInDown short-des">Bạn đã sẵn sàng khám phá hành trình của chính mình,
+                <p class=" animate__animated  animate__fadeInDown short-des">Bạn đã sẵn sàng khám phá hành trình của
+                    chính mình,
                     nơi
                     đam mê trở thành động lực và tương lai mở ra những cơ hội vô hạn?</p>
                 <button class="btn get-started  animate__animated  animate__fadeInDown">Bắt đầu ngay</button>
@@ -112,58 +113,61 @@
                     </button>
                 </li>
             </ul>
-        </div>
+        </div>  
 
         <div id="openingScreen" class="step step__4 animate__animated  animate__fadeInDown container">
-            <h2>Thực hiện trắc nghiệm để định hướng nghề theo công cụ Holand!</h2>
-            <p><strong>TRƯỚC khi thực hiện, các bạn hãy:</strong></p>
-            <p>Hít thở thật sâu 2-3 lần.</p>
-            <p>Hoàn thành chỉ tối đa trong 20 phút.</p>
-            <p><strong>TRONG khi thực hiện, người thực hiện cần:</strong></p>
-            <p>Chọn câu trả lời đến với mình nhanh và tự nhiên nhất.</p>
-            <p>Lựa chọn mức độ đồng ý của mình cho mỗi câu ở các phần tiếp theo bằng cách chọn vào ô tương ứng:</p>
-            <div>
-                <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
-                    <span>
-                        Rất thích
-                    </span>
-                    <span>
-                        🥰
-                    </span>
-                </p>
-                <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
-                    <span>
-                        Thích
-                    </span>
-                    <span>
-                        😊
-                    </span>
-                </p>
-                <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
-                    <span>
-                        Bình thường
-                    </span>
-                    <span>
-                        🤔
-                    </span>
-                </p>
-                <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
-                    <span>
-                        Không thích
-                    </span>
-                    <span>
-                        🙁
-                    </span>
-                </p>
-                <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
-                    <span>
-                        Rất không thích
-                    </span>
-                    <span>
-                        😡
-                    </span>
-                </p>
+            <div class="content">
+                <h2>Thực hiện trắc nghiệm để định hướng nghề theo công cụ Holand!</h2>
+                <p><strong>TRƯỚC khi thực hiện, các bạn hãy:</strong></p>
+                <p>Hít thở thật sâu 2-3 lần.</p>
+                <p>Hoàn thành chỉ tối đa trong 20 phút.</p>
+                <p><strong>TRONG khi thực hiện, người thực hiện cần:</strong></p>
+                <p>Chọn câu trả lời đến với mình nhanh và tự nhiên nhất.</p>
+                <p>Lựa chọn mức độ đồng ý của mình cho mỗi câu ở các phần tiếp theo bằng cách chọn vào ô tương ứng:</p>
+                <div>
+                    <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
+                        <span>
+                            Rất thích
+                        </span>
+                        <span>
+                            🥰
+                        </span>
+                    </p>
+                    <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
+                        <span>
+                            Thích
+                        </span>
+                        <span>
+                            😊
+                        </span>
+                    </p>
+                    <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
+                        <span>
+                            Bình thường
+                        </span>
+                        <span>
+                            🤔
+                        </span>
+                    </p>
+                    <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
+                        <span>
+                            Không thích
+                        </span>
+                        <span>
+                            🙁
+                        </span>
+                    </p>
+                    <p class="animate__animated animate__bounceIn animate__delay-1s answer-status">
+                        <span>
+                            Rất không thích
+                        </span>
+                        <span>
+                            😡
+                        </span>
+                    </p>
+                </div>
             </div>
+            
             <button id="startButton">Bắt đầu</button>
         </div>
 
@@ -176,7 +180,8 @@
             <p id="resultText"></p>
         </div>
 
-        <div id="completionScreen" class="step step__7 animate__animated  animate__fadeInDown  container" style="display: none;">
+        <div id="completionScreen" class="step step__7 animate__animated  animate__fadeInDown  container"
+            style="display: none;">
             <h2>Chúc mừng bạn đã hoàn thành bài trắc nghiệm!</h2>
             <p>Vui lòng điền thông tin bên dưới để xem kết quả.</p>
             <form id="resultForm">
@@ -189,11 +194,12 @@
                 <button type="submit">Gửi kết quả</button>
             </form>
         </div>
-        <div class="animate__animated animate__fadeInDown step step__8 completed" >
+        <div class="animate__animated animate__fadeInDown step step__8 completed">
             <div>
 
                 <h1 class=" animate__animated  animate__fadeInDown">Chúc mừng bạn đã hoàn thành!</h1>
-                <p class=" animate__animated  animate__fadeInDown">Kết quả khảo sát sẽ giúp bạn hiểu rõ hơn về bản thân và tìm ra con đường nghề nghiệp phù hợp nhất</p>
+                <p class=" animate__animated  animate__fadeInDown">Kết quả khảo sát sẽ giúp bạn hiểu rõ hơn về bản thân
+                    và tìm ra con đường nghề nghiệp phù hợp nhất</p>
                 <button class="btn re-started  animate__animated  animate__fadeInDown">Khảo sát lại</button>
             </div>
         </div>
@@ -241,21 +247,18 @@
             </div>
         </div>
     </section>
+    <!-- Nhung chat bot -->
     <script>
         window.embeddedChatbotConfig = {
             chatbotId: "8PK7AYXz-QR9H6RFI7vAe",
             domain: "www.chatbase.co"
         }
     </script>
-    <script
-        src="https://www.chatbase.co/embed.min.js"
-        chatbotId="8PK7AYXz-QR9H6RFI7vAe"
-        domain="www.chatbase.co"
-        defer>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="8PK7AYXz-QR9H6RFI7vAe" domain="www.chatbase.co" defer>
     </script>
     <script>!function(s,u,b,i,z){var o,t,r,y;s[i]||(s._sbzaccid=z,s[i]=function(){s[i].q.push(arguments)},s[i].q=[],s[i]("setAccount",z),r=["widget.subiz.net","storage.googleapis"+(t=".com"),"app.sbz.workers.dev",i+"a"+(o=function(k,t){var n=t<=6?5:o(k,t-1)+o(k,t-3);return k!==t?n:n.toString(32)})(20,20)+t,i+"b"+o(30,30)+t,i+"c"+o(40,40)+t],(y=function(k){var t,n;s._subiz_init_2094850928430||r[k]&&(t=u.createElement(b),n=u.getElementsByTagName(b)[0],t.async=1,t.src="https://"+r[k]+"/sbz/app.js?accid="+z,n.parentNode.insertBefore(t,n),setTimeout(y,2e3,k+1))})(0))}(window,document,"script","subiz","acsesrycafszkksyhctq");</script>
     
-    <script src="script.js"></script>        
+    <script src="script.js"></script>
 </body>
 
 </html>
