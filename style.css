@@ -102,7 +102,7 @@ header p {
    flex-direction: column;
    justify-content: center;
    /* align-items: center; */
-   gap: 15px;
+   gap: 10px;
    /* Reduced gap */
    max-width: 500px;
    /* Adjusted max-width */
@@ -213,7 +213,7 @@ button.option.selected {
 /* Navigation Buttons */
 .navigation-container {
    display: flex;
-   gap: 20px;
+   gap: 17px;
    justify-content: space-between;
    margin-top: 15px;
    /* Reduced margin */
@@ -342,7 +342,7 @@ footer {
    flex-direction: column;
    align-items: center;
    text-align: center;
-   gap: 15px;
+   gap: 12px;
    /* Reduced gap */
    padding: 20px;
    max-width: 500px;
@@ -440,7 +440,7 @@ footer {
    flex-direction: column;
    align-items: center;
    text-align: center;
-   gap: 15px;
+   gap: 12px;
    /* Reduced gap */
    padding: 20px;
    border-radius: 12px;
@@ -562,7 +562,7 @@ footer {
    /* Reduced width */
    display: flex;
    flex-direction: column;
-   gap: 8px;
+   gap: 7px;
    /* Reduced gap */
    z-index: 1000;
 }
@@ -964,7 +964,7 @@ body {
 
    .navigation-container {
       flex-wrap: wrap;
-      gap: 8px;
+      gap: 5px;
       /* Reduced gap */
    }
 
