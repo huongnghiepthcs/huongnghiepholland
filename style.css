@@ -23,7 +23,7 @@ header {
    text-align: center;
    background: linear-gradient(135deg, #6a11cb, #2575fc);
    color: white;
-   padding: 20px;
+   padding: 10px;
    width: 100%;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -100,12 +100,18 @@ header p {
 #openingScreen {
    /* display: flex; */
    flex-direction: column;
-   justify-content: center;
-   /* align-items: center; */
-   gap: 10px;
+   overflow: scroll;
+   height: calc(100vh - 105px);
+   justify-content: space-between;
+   gap: 15px;
    /* Reduced gap */
    max-width: 500px;
    /* Adjusted max-width */
+}
+#openingScreen .content {
+   display: flex;
+   gap: 15px;
+   flex-direction: column  ;
 }
 
 #openingScreen p {
@@ -213,7 +219,7 @@ button.option.selected {
 /* Navigation Buttons */
 .navigation-container {
    display: flex;
-   gap: 17px;
+   gap: 20px;
    justify-content: space-between;
    margin-top: 15px;
    /* Reduced margin */
@@ -342,7 +348,7 @@ footer {
    flex-direction: column;
    align-items: center;
    text-align: center;
-   gap: 12px;
+   gap: 15px;
    /* Reduced gap */
    padding: 20px;
    max-width: 500px;
@@ -410,6 +416,8 @@ footer {
    border-radius: 8px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
    text-align: left;
+   overflow: auto;
+    max-height: calc(100vh - 170px);
 }
 
 .details-container .title {
@@ -440,7 +448,7 @@ footer {
    flex-direction: column;
    align-items: center;
    text-align: center;
-   gap: 12px;
+   gap: 15px;
    /* Reduced gap */
    padding: 20px;
    border-radius: 12px;
@@ -448,7 +456,7 @@ footer {
    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
    max-width: 500px;
    width: 90%;
-   margin: 20px 0;
+   margin: 10px 0;
    box-sizing: border-box;
    /* Ensure padding doesn't increase width */
 }
@@ -520,11 +528,70 @@ footer {
    background-color: #2575fc;
 }
 
+.try_again {
+   position: fixed;
+   bottom: 0px;
+   left: 20px;
+   /* width: 40px; */
+   /* Reduced width */
+   /* Reduced height */
+   /* background-color: #6a11cb; */
+   color: white;
+   font-size: 16px;
+   /* Reduced font-size */
+   width: 200px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   cursor: pointer;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   z-index: 1000;
+
+}
+
+.chat_gpt {
+   position: fixed;
+   bottom: 130px;
+   right: 20px;
+   width: 40px;
+   /* Reduced width */
+   height: 70px;
+   /* Reduced height */
+   background-color: #6a11cb;
+   color: white;
+   font-size: 20px;
+   /* Reduced font-size */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   cursor: pointer;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   z-index: 1000;
+   background-color: #ffffff;
+   padding: 10px;
+   border-radius: 10px;
+   color: #000000;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+.chat_gpt img {
+   max-width: 30px;
+   height: 30px;
+   display: block;
+}
+
+.chat_gpt span {
+   font-size: 12px;
+   text-align: center;
+}
 
 /* Settings Button */
 .settings-button {
    position: fixed;
-   bottom: 20px;
+   bottom: 75px;
    left: 20px;
    width: 40px;
    /* Reduced width */
@@ -550,7 +617,7 @@ footer {
 /* Settings Menu */
 .settings-menu {
    position: fixed;
-   bottom: 65px;
+   bottom: 150px;
    /* Adjusted bottom position */
    left: 20px;
    background-color: white;
@@ -562,7 +629,7 @@ footer {
    /* Reduced width */
    display: flex;
    flex-direction: column;
-   gap: 7px;
+   gap: 8px;
    /* Reduced gap */
    z-index: 1000;
 }
@@ -699,11 +766,15 @@ body {
    text-shadow: 1px 1px 2px #427388;
 }
 
+ul {
+   overflow: auto;
+   max-height: 60vh;
+}
 
 #content-wrap {
    height: 100vh;
    width: 100vw;
-   padding-top: 130px;
+   padding-top: 80px;
 }
 
 .step {
@@ -937,12 +1008,15 @@ body {
       /* Reduced margin */
       /* min-height: 80%; */
    }
+
    .slogan, .completed {
       padding: 0 10px;
    }
+
    .slogan h1, .completed h1 {
       font-size: 2rem;
    }
+
    .slogan p, .completed p {
       font-size: 1.2rem;
    }
@@ -951,6 +1025,7 @@ body {
       width: 100%;
       min-height: 50px;
    }
+
    #quizSection h3 {
       font-size: 1.1em;
       /* Reduced font-size */
@@ -964,7 +1039,7 @@ body {
 
    .navigation-container {
       flex-wrap: wrap;
-      gap: 5px;
+      gap: 8px;
       /* Reduced gap */
    }
 
@@ -1022,6 +1097,7 @@ body {
 
    .settings-menu {
       bottom: 50px;
+      right: 70px;
    }
 
    #customAudioControls button,
@@ -1031,21 +1107,3 @@ body {
       margin-right: 3px;
    }
 }
-.chatbot-container {
-   width: 350px; /* Điều chỉnh độ rộng theo ý bạn */
-   height: 500px; /* Điều chỉnh chiều cao theo ý bạn */
-   border: 1px solid #ccc;
-   border-radius: 5px;
-   overflow: hidden;
-   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-   position: fixed; /* Có thể tùy chỉnh */
-   bottom: 20px;  /* Vị trí bot */
-   right: 20px; /* Vị trí bot */
-   z-index: 1000; /* Đảm bảo chatbot nằm trên các element khác */
- }
- 
- .chatbot-iframe {
-     width: 100%;
-     height: 100%;
-     border: none;
- }
