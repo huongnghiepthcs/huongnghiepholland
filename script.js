@@ -347,7 +347,6 @@ function displayDetails(groupsToShow, isInitialDisplay = true) {
     if (index === 3) {
       pageContent = `<h2>Các nhóm còn lại</h2><p>Các nhóm tiếp theo còn lại có số điểm thấp hơn 3 nhóm đầu. Tuy nhiên bạn cũng có thể khám phá xem bạn có đặc điểm gì với các nhóm nghề này</p>`;
     }
-    
     detailDiv.innerHTML = `${pageContent}
              <div class="navigation-container">
                 ${
@@ -498,11 +497,10 @@ function submitResult() {
       return response.json();
     })
     .then((data) => {
-      console.log('========== dataa', data)
+
       if (data.status === "success") {
         // alert("Kết quả đã được gửi thành công!");
         document.getElementById("completionScreen").style.display = "none";
-        alert("Kết quả đã được gửi thành công!");
         handleNextStep("step__7", "step__8");
       } else {
         // alert("Có lỗi khi gửi kết quả. Vui lòng thử lại.");
@@ -512,7 +510,7 @@ function submitResult() {
     })
     .catch((error) => {
       console.error("Error:", error);
-      alert("Có lỗi khi gửi kết quả. Vui lòng thử lại.");
+      // alert("Có lỗi khi gửi kết quả. Vui lòng thử lại.");
     });
 }
 
@@ -528,6 +526,13 @@ document.querySelectorAll(".career-option").forEach((option) => {
     document.getElementById("openingScreen").style.display = "flex";
   });
 });
+
+function openChatGpt() {
+  return window.open('https://chatgpt.com/g/g-676c3474fb1c8191bde8c0175368c2b6-huong-nghiep-ai', '_blank')
+}
+function tryAgain() {
+  window.location.reload()
+}
 
 function toggleSettingsMenu() {
   const menu = document.getElementById("settingsMenu");
@@ -574,8 +579,8 @@ let currentStep = "step__1";
 
 const bgImage = {
   step__1: [""],
-  step__2: ["./Questions-pana.svg", "./Questions-amico.svg"],
-  step__3: ["./engineer.svg", "./leader.svg"],
+  step__2: ["./images/Questions-pana.svg", "./images/Questions-amico.svg"],
+  step__3: ["./images/engineer.svg", "./images/leader.svg"],
   step__4: ["", ""],
 };
 
