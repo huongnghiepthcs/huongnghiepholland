@@ -525,7 +525,7 @@ footer {
 .settings-button {
    position: fixed;
    bottom: 20px;
-   right: 20px;
+   left: 20px;
    width: 40px;
    /* Reduced width */
    height: 40px;
@@ -552,7 +552,7 @@ footer {
    position: fixed;
    bottom: 65px;
    /* Adjusted bottom position */
-   right: 20px;
+   left: 20px;
    background-color: white;
    border: 1px solid #ddd;
    border-radius: 8px;
@@ -1031,3 +1031,21 @@ body {
       margin-right: 3px;
    }
 }
+.chatbot-container {
+   width: 350px; /* Điều chỉnh độ rộng theo ý bạn */
+   height: 500px; /* Điều chỉnh chiều cao theo ý bạn */
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   overflow: hidden;
+   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+   position: fixed; /* Có thể tùy chỉnh */
+   bottom: 20px;  /* Vị trí bot */
+   right: 20px; /* Vị trí bot */
+   z-index: 1000; /* Đảm bảo chatbot nằm trên các element khác */
+ }
+ 
+ .chatbot-iframe {
+     width: 100%;
+     height: 100%;
+     border: none;
+ }
