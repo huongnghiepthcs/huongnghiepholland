@@ -273,50 +273,68 @@ const partDetails = {
   "Kỹ thuật": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Kỹ thuật</h3>
         <p>Là nhóm người thực tế, ưa hành động hơn suy nghĩ, thích khám phá...</p>
         <p><strong>Điểm mạnh:</strong> Là những người trung thực, thẳng thắn và kiên trì trong công việc.</p>
-        <p><strong>Điểm yếu:</strong> Đa phần người thuộc nhóm kỹ thuật bộc trực, hơi khô khan và không giỏi giao tiếp.</p>
+        <p><strong>Điểm cần khắc phục:</strong> Đa phần người thuộc nhóm kỹ thuật bộc trực, hơi khô khan và không giỏi giao tiếp.</p>
         <p><strong>Ngành nghề:</strong> Cơ khí, Ô tô, Điện tử, Điện lạnh; Máy tính, Công nghệ thông tin; Xây dựng,…</p>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Thực hành sửa các vật dụng đơn giản</p>
         <p><strong>Các môn học cần phát huy:</strong> Công nghệ, vật lý, sinh học,…</p>
+        <p><strong>Ở lớp:</strong> Tham gia thực hành các môn như Vật lý, Công nghệ hoặc thể dục, hỗ trợ giáo viên sửa chữa hoặc chuẩn bị thí nghiệm</p>
+        <p><strong>Ở trường:</strong> Tham gia câu lạc bộ kỹ thuật, chế tạo mô hình, hoặc các hoạt động về khoa học ứng dụng. Thử sức trong các cuộc thi sáng tạo robot, mô hình cơ khí.</p>
+        <p><strong>Ở nhà:</strong>Sửa chữa đồ dùng gia đình hoặc tự làm các dự án DIY (Do-It-Yourself). Trồng cây, làm vườn, chăm sóc thú cưng </p>
         `,
   "Nghiên cứu": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Nghiên cứu</h3>
         <p>Thích phân tích, nghiên cứu sâu mọi vấn đề...</p>
         <p><strong>Điểm mạnh:</strong> ọ thích làm việc với ý tưởng hoặc dữ liệu để sáng tạo nên những giải pháp mới; có khả năng quan sát, phân tích, đánh giá vấn đề một cách logic và có hệ thống.</p>
-        <p><strong>Điểm yếu:</strong> Thích các hoạt động cá nhân hoặc làm việc trong nhóm nhỏ.</p>
+        <p><strong>Điểm cần khắc phục:</strong> Thích các hoạt động cá nhân hoặc làm việc trong nhóm nhỏ.</p>
         <p><strong>Ngành nghề:</strong> Nhà nghiên cứu Khoa học; Kỹ sư máy tính; Bác sĩ, Dược sĩ,…</p>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Trải nghiệm tham gia nghiên cứu khoa học</p>
         <p><strong>Các môn học cần phát huy:</strong> Toán, khoa học tự nhiên, tin học, ngoại ngữ,…</p>
+        <p><strong>Ở lớp:</strong>Tham gia các bài tập yêu cầu phân tích dữ liệu hoặc thí nghiệm khoa học. Đặt câu hỏi hoặc trình bày quan điểm cá nhân về vấn đề khoa học.</p>
+        <p><strong>Ở trường:</strong>Gia nhập các câu lạc bộ nghiên cứu khoa học hoặc câu lạc bộ STEM. Tham gia các cuộc thi học thuật như Olympic Toán, Hóa, Sinh, hoặc tin học.</p>
+        <p><strong>Ở nhà:</strong>Đọc sách chuyên ngành, tài liệu học thuật hoặc xem các chương trình khoa học.Tự làm các thí nghiệm nhỏ, sử dụng công cụ như kính hiển vi, phần mềm lập trình. </p>
         `,
   "Nghiệp vụ": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Nghiệp vụ</h3>
         <p>Có tổ chức, logic, định hướng chi tiết...</p>
         <p><strong>Điểm mạnh:</strong> Tận tâm, lịch sự và rất kiên trì với mục tiêu của mình, </p>
-        <p><strong>Điểm yếu:</strong> Cầu toàn trong công việc cũng như muốn làm người khác hài lòng nên rất dễ bị căng thẳng và áp lực </p>
+        <p><strong>Điểm cần khắc phục:</strong> Cầu toàn trong công việc cũng như muốn làm người khác hài lòng nên rất dễ bị căng thẳng và áp lực </p>
         <p><strong>Ngành nghề:</strong> Kế toán, kiểm toán, thuế, nhân viên ngân hàng, giáo viên,…</p>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Các trọng trách quan trọng: Thủ quỷ, giữ sổ đầu bài</p>
         <p><strong>Các môn học cần phát huy:</strong> Tin học, toán, ngoại ngữ, giáo dục công dân,…</p>
+        <p><strong>Ở lớp:</strong> Hỗ trợ giáo viên quản lý tài liệu, sổ sách hoặc làm thư ký nhóm. Luyện tập làm bài tập logic, thống kê, hoặc quản lý thời gian.</p>
+        <p><strong>Ở trường:</strong> Tham gia các câu lạc bộ về quản trị văn phòng, theo dõi sổ sách quỹ, hoặc phân tích dữ liệu. Hỗ trợ tổ chức tài liệu, sắp xếp sự kiện.</p>
+        <p><strong>Ở nhà:</strong>Thực hành các kỹ năng như sử dụng phần mềm Excel, làm báo cáo, hoặc quản lý ngân sách cá nhân. Sắp xếp đồ đạc ngăn nắp, lập kế hoạch chi tiêu hoặc lịch trình học tập chi tiết.</p>
         `,
   "Nghệ thuật": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Nghệ thuật</h3>
         <p>Ưa thích tự do, yêu cái đẹp, trí tưởng tượng phong phú...</p>
         <p><strong>Điểm mạnh:</strong> Trí tưởng tượng phong phú, sáng tạo: có khiếu thẩm mỹ, có thể phối màu hoặc vẽ, viết, mặc đẹp, nhảy, chơi nhạc cụ,….</p>
-        <p><strong>Điểm yếu:</strong> Bạn trẻ nhóm nghệ thuật thường thích làm những điều khác với những người xung quanh, vì vậy ít tuân thủ theo luật lệ, nề nếp.</p>
+        <p><strong>Điểm cần khắc phục:</strong> Bạn trẻ nhóm nghệ thuật thường thích làm những điều khác với những người xung quanh, vì vậy ít tuân thủ theo luật lệ, nề nếp.</p>
         <p><strong>Ngành nghề:</strong> Thiết kế đồ họa, ngoại ngữ; thanh nhạc, thời trang…</p>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Lớp phó văn thể mỹ, lớp phó văn nghệ</p>
         <p><strong>Các môn học cần phát huy:</strong> Mỹ thuật, âm nhạc, ngữ văn,…</p>
+        <p><strong>Ở lớp:</strong> Sáng tác bài thơ, bài văn hoặc bài hát trong các tiết học văn hoặc âm nhạc. Tham gia biểu diễn kịch, vẽ tranh minh họa cho các dự án nhóm.</p>
+        <p><strong>Ở trường:</strong> Tham gia các câu lạc bộ mỹ thuật, âm nhạc, văn thơ, hoặc sân khấu. Góp phần tổ chức các chương trình nghệ thuật, triển lãm hoặc sự kiện văn hóa.</p>
+        <p><strong>Ở nhà:</strong>Tự luyện tập vẽ, sáng tác nhạc, viết truyện, làm đồ thủ công. Trang trí không gian sống hoặc học thiết kế đồ họa.</p>
         `,
   "Xã hội": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Xã hội</h3>
         <p>Thích giúp đỡ người khác, làm việc cộng đồng...</p>
         <p><strong>Điểm mạnh:</strong> Thấu hiểu, có khả năng về ngôn ngữ, diễn đạt tốt ý tưởng truyền đạt kiến thức, có khả năng lắng nghe một cách kiên nhẫn.</p>
-        <p><strong>Điểm yếu:</strong> Nhạy cảm, dễ bị ảnh hưởng bởi cảm xúc của người khác, dễ mủi lòng, hay che giấu sở thích hoặc khả năng thật.</p>
+        <p><strong>Điểm cần khắc phục:</strong> Nhạy cảm, dễ bị ảnh hưởng bởi cảm xúc của người khác, dễ mủi lòng, hay che giấu sở thích hoặc khả năng thật.</p>
         <p><strong>Ngành nghề:</strong> Cố vấn, luật sư, quảng cáo marketing, du lịch, dịch vụ khách hàng,…</p>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Dịch vụ cộng đồng, dịch vụ cá nhân</p>
         <p><strong>Các môn học cần phát huy:</strong> Giáo dục công dân, ngữ văn, lịch sử,…</p>
+        <p><strong>Ở lớp:</strong> Hỗ trợ bạn bè trong học tập, làm nhóm trưởng trong các dự án nhóm. Thuyết trình hoặc hướng dẫn bạn bè trong các hoạt động học tập chung.</p>
+        <p><strong>Ở trường:</strong> Tham gia hoạt động tình nguyện, câu lạc bộ hỗ trợ cộng đồng hoặc đội hướng dẫn học sinh mới. Tổ chức hoặc tham gia các buổi tư vấn, giao lưu kỹ năng mềm.</p>
+        <p><strong>Ở nhà:</strong>Hướng dẫn hoặc giúp đỡ em nhỏ trong việc học tập. Tổ chức các buổi trò chuyện hoặc thuyết trình trong gia đình.</p>
         `,
   "Quản lý": `<h3 class='title'>Đặc điểm của những người thuộc nhóm Quản lý</h3>
         <p>Yêu thích lãnh đạo, thuyết phục người khác...</p>
         <p><strong>Điểm mạnh:</strong> Quyết đoán, rất năng động, tham vọng, giao tiếp tốt; được nhiều người tin tưởng, nể phục. </li>
-        <p><strong>Điểm yếu:</strong> Không thích, không có năng khiếu trong việc để ý đến các chi tiết.  </li>
+        <p><strong>Điểm cần khắc phục:</strong> Không thích, không có năng khiếu trong việc để ý đến các chi tiết.  </li>
         <p><strong>Ngành nghề:</strong> Quản lí doanh nghiệp; Marketing, quản trị, quản lí trong cơ quan nhà nước, trường học;…</li>
         <p><strong>Trải nghiệm ở lớp, trường:</strong> Lớp phó học tập, lớp trưởng, ...</li>
         <p><strong>Các môn học cần phát huy:</strong> Toán, ngữ văn, tin học, giáo dục công dân,…</p>
+        <p><strong>Ở lớp:</strong> Đề xuất ý tưởng và dẫn dắt nhóm trong các dự án hoặc bài tập nhóm. Tổ chức thảo luận, tranh biện, hoặc lập kế hoạch học tập cho nhóm.</p>
+        <p><strong>Ở trường:</strong> Tham gia câu lạc bộ kinh doanh, khởi nghiệp hoặc đội lãnh đạo học sinh. Tổ chức sự kiện, hội thảo, hoặc các buổi gây quỹ.</p>
+        <p><strong>Ở nhà:</strong>Thực hành kỹ năng thuyết trình, lập kế hoạch cá nhân hoặc dự án nhỏ tại nhà. Học các khóa online về kỹ năng giao tiếp, bán hàng, hoặc lãnh đạo.</p>
         `,
 };
 
@@ -579,8 +597,8 @@ let currentStep = "step__1";
 
 const bgImage = {
   step__1: [""],
-  step__2: ["./Questions-pana.svg", "./Questions-amico.svg"],
-  step__3: ["./engineer.svg", "./leader.svg"],
+  step__2: ["./images/Questions-pana.svg", "./images/Questions-amico.svg"],
+  step__3: ["./images/engineer.svg", "./images/leader.svg"],
   step__4: ["", ""],
 };
 
