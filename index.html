@@ -21,7 +21,6 @@
             if (event.key === "F12" || event.keyCode === 123) {
                 event.preventDefault();
             }
-            // Optional: Block Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+U (common shortcuts to access dev tools)
             if ((event.ctrlKey && event.shiftKey && ["I", "C"].includes(event.key)) || 
                 (event.ctrlKey && event.key === "U")) {
                 event.preventDefault();
