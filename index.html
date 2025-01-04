@@ -9,7 +9,25 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+ <script>
+        // Disable right-click
+        document.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
 
+        // Disable F12 and other keys
+        document.addEventListener("keydown", function(event) {
+            // Check for F12 (key code 123)
+            if (event.key === "F12" || event.keyCode === 123) {
+                event.preventDefault();
+            }
+            // Optional: Block Ctrl+Shift+I, Ctrl+Shift+C, Ctrl+U (common shortcuts to access dev tools)
+            if ((event.ctrlKey && event.shiftKey && ["I", "C"].includes(event.key)) || 
+                (event.ctrlKey && event.key === "U")) {
+                event.preventDefault();
+            }
+        });
+    </script>
 <body class="animate__delay-1s">
     <header>
         <h1>Trắc nghiệm nghề nghiệp</h1>
