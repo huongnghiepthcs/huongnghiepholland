@@ -39,8 +39,6 @@
                 splash.style.width = splashSize + 'px';
                 splash.style.height = splashSize + 'px';
                 splash.innerHTML = '';
-
-                // Job-related emojis
                 const emojis = ['🧑‍💼', '👩‍🔬', '👨‍🍳', '🧑‍🏫', '👩‍🎨', '👨‍🔧', '👩‍💻', '👨‍⚖️'];
                 for (let i = 0; i < 5; i++) {
                     const emoji = document.createElement('div');
@@ -52,13 +50,12 @@
                     emoji.style.opacity = '0';
                     emoji.style.pointerEvents = 'none';
 
-                    // Random direction and distance
                     const angle = Math.random() * 2 * Math.PI;
                     const distance = 100 + Math.random() * 30;
                     const dx = Math.cos(angle) * distance;
                     const dy = Math.sin(angle) * distance;
 
-                    // Animate with keyframes
+
                     emoji.animate([
                         { transform: 'translate(0,0) scale(1)', opacity: 0 },
                         { transform: `translate(${dx / 2}px,${dy / 2}px) scale(1.2)`, opacity: 0.8 },
@@ -74,8 +71,6 @@
 
                 setTimeout(() => splash.innerHTML = '', 1500);
             }
-
-            // Attach splash effect to body clicks (not image)
             document.addEventListener('click', function(e) {
                 showSplashEffect(e.clientX, e.clientY);
             });
@@ -84,7 +79,7 @@
                 showSplashEffect(touch.clientX, touch.clientY);
             });
 
-            // Make splash effect happen on click, touch, and keyboard tab (focus)
+
             document.addEventListener('DOMContentLoaded', function () {
                 const img = document.querySelector('.center__bg');
                 if (img) {
@@ -107,7 +102,7 @@
                 }
             });
 
-            // Simple splash animation
+
             const style = document.createElement('style');
             style.innerHTML = `
             @keyframes splashAnim {
